@@ -11,7 +11,7 @@
 
 int main() {
     // correct number constant
-    const int correctNumber = 8;
+    const int CORRECT_NUMBER = 8;
 
     // guessed number variable
     float guess;
@@ -23,11 +23,11 @@ int main() {
     std::cout << "Enter your guessed number: ";
     std::cin >> guess;
 
-    if (guess == correctNumber) {
+    if (guess == CORRECT_NUMBER) {
         std::cout << "You guessed the number correctly!";
     }
 
-    if (guess != correctNumber) {
+    if (guess != CORRECT_NUMBER) {
         std::cout << "You did not guess the number correctly. Try again!";
     }
 }
